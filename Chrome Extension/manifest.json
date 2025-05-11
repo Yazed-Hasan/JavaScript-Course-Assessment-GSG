@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Tab Renamer",
+  "version": "0.1",
+  "description": "A simple extension to rename the current tab.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
