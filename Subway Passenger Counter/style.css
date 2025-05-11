@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    font-family: Arial;
+    margin: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+#count-el {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+#save-el {
+    margin-top: 15px;
+    font-size: 16px;
+}
